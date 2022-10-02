@@ -22,7 +22,7 @@ const app = Vue.createApp({
             if (this.times < 0){
                 message = `Must be non-negative number: ${this.times}`;
             }
-            else if(this.times === 0){
+            else if(this.times == 0){
                 message = "";
             }
             else{
